@@ -1,13 +1,3 @@
-//Classe: nome, idade, peso, altura, notas.
-//Métodos: calculaCategoria(), calculaIMC, calculaMediaValida,
-//obtemNomeAtleta, obtemIdadeAtleta, obtemPesoAtleta, obtemNotasAtleta, 
-//obtemCategoria, obtemIMC, obtemMediaValida;
-////Categorias: Infantil: 9 a 11 anos
-//Juvenil: 12 e 13 anos
-//Intermediário: 14 e 15 anos
-//Adulto: 16 a 30 anos
-//Sem categoria: demais idades
-//IMC = peso/altura^2
 class Atleta {
     constructor(nome, idade, peso, altura, notas){  //classe Atleta conforme solicitado
         this.nome = nome;
